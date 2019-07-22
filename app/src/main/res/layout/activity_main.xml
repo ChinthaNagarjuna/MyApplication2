@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinnerReapt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Repat Option"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:met_floatingLabel="normal" />
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinner_weekley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BATTERY TYPE"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:met_floatingLabel="normal" />
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinner_monthly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BATTERY TYPE"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:met_floatingLabel="normal" />
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinner_yearly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BATTERY TYPE"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:met_floatingLabel="normal" />
+
+</LinearLayout>
